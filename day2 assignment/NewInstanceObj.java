@@ -10,8 +10,8 @@ public class NewInstanceObj {
             Student s = (Student) c.getDeclaredConstructor(NewInstanceObj.class).newInstance(outerClass);
 
             // Setting values using the constructor
-            s.name = "Aarav";
-            s.roll_no = 21;
+            s.name = "Kartik";
+            s.roll_no = 51;
 
             System.out.println("Student Details:");
             s.display();
